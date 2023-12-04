@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 103926055}
   - component: {fileID: 103926054}
   - component: {fileID: 103926053}
+  - component: {fileID: 103926057}
   - component: {fileID: 103926052}
   m_Layer: 5
   m_Name: Settings But
@@ -249,6 +250,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 103926057}
+        m_TargetAssemblyTypeName: UIAudio, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 034e03182211e854294bec5ff6c8f832, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &103926055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -287,6 +300,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 103926050}
   m_CullTransparentMesh: 1
+--- !u!114 &103926057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103926050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fe7a63fa4a04244ba81f4c05a0883a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &342833804
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,6 +517,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 925754944}
   - {fileID: 874983214}
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -731,6 +757,50 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &925754942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 925754944}
+  - component: {fileID: 925754943}
+  m_Layer: 0
+  m_Name: UI Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &925754943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925754942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fe7a63fa4a04244ba81f4c05a0883a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &925754944
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925754942}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 705.513, y: 362.279, z: -51.19886}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 785963911}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &930581030
 GameObject:
   m_ObjectHideFlags: 0
@@ -743,6 +813,7 @@ GameObject:
   - component: {fileID: 930581036}
   - component: {fileID: 930581035}
   - component: {fileID: 930581034}
+  - component: {fileID: 930581037}
   - component: {fileID: 930581033}
   - component: {fileID: 930581032}
   m_Layer: 5
@@ -857,6 +928,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 930581037}
+        m_TargetAssemblyTypeName: UIAudio, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 034e03182211e854294bec5ff6c8f832, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &930581035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -895,6 +978,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 930581030}
   m_CullTransparentMesh: 1
+--- !u!114 &930581037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930581030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fe7a63fa4a04244ba81f4c05a0883a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1054596899
 GameObject:
   m_ObjectHideFlags: 0
@@ -1098,6 +1193,7 @@ GameObject:
   - component: {fileID: 1189204698}
   - component: {fileID: 1189204697}
   - component: {fileID: 1189204700}
+  - component: {fileID: 1189204702}
   - component: {fileID: 1189204701}
   m_Layer: 5
   m_Name: Play~But
@@ -1183,6 +1279,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1189204702}
+        m_TargetAssemblyTypeName: UIAudio, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 034e03182211e854294bec5ff6c8f832, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1189204698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1249,6 +1357,18 @@ MonoBehaviour:
   m_EffectColor: {r: 1, g: 1, b: 1, a: 0.5}
   m_EffectDistance: {x: 3, y: 3}
   m_UseGraphicAlpha: 1
+--- !u!114 &1189204702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189204695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fe7a63fa4a04244ba81f4c05a0883a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1275930640
 GameObject:
   m_ObjectHideFlags: 0
