@@ -185,3 +185,7 @@ Received Import Request.
   path: Assets/Audio/wompwomp.wav
   artifactKey: Guid(fae646e294e83b8429734823243ff0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Audio/wompwomp.wav using Guid(fae646e294e83b8429734823243ff0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106aec0fdb3ea3b7d3f5d2c9fd624ecf') in 0.048337 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
